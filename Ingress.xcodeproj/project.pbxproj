@@ -301,6 +301,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B914BE091761115300DAEB3D /* CustomBadge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBadge.h; sourceTree = "<group>"; };
+		B914BE0A1761115300DAEB3D /* CustomBadge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBadge.m; sourceTree = "<group>"; };
 		FA008E18171D334700176C3D /* powerCube@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "powerCube@2x.png"; sourceTree = "<group>"; };
 		FA02F9D6173D54540016EE7F /* MediaWebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaWebViewViewController.h; sourceTree = "<group>"; };
 		FA02F9D7173D54540016EE7F /* MediaWebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaWebViewViewController.m; sourceTree = "<group>"; };
@@ -822,6 +824,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B914BE081761113200DAEB3D /* CustomBadges */ = {
+			isa = PBXGroup;
+			children = (
+				B914BE091761115300DAEB3D /* CustomBadge.h */,
+				B914BE0A1761115300DAEB3D /* CustomBadge.m */,
+			);
+			name = CustomBadges;
+			sourceTree = "<group>";
+		};
 		FA036DE4175681CA00E3C55B /* XCDYouTubeVideoPlayerViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1724,6 +1735,7 @@
 		FAE6AC7616A0E27B0082BBB5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				B914BE081761113200DAEB3D /* CustomBadges */,
 				FACEE6141737E9AB006A9912 /* NSShadow+Initializer */,
 				FA3BD77E17352C5B004F5ED5 /* APView */,
 				FA29CCF5171F05BB007FB43E /* TypeWriterLabel */,
